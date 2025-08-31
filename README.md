@@ -27,7 +27,11 @@ The Jupyter Notebook, **Math Assessment.ipynb**, contains a comprehensive analys
 
 This project serves as a practical example of applying advanced Bayesian IRT models to educational data, demonstrating how to incorporate external covariates to build more robust and interpretable psychometric models.
 
+## Empirical_Plots_math and ICC_Plots_math Folders
+The Empirical Plots and ICC Plots visualize the analysis using Item Response Theory (IRT). 
+The empirical plots contain scatter plots showing the actual student responses (0 for incorrect, 1 for correct) against their estimated abilities. 
 
+The ICC_Plots folder houses Item Characteristic Curves (ICCs) for each item. These plots depict the theoretical relationship between a student's ability ($\theta$) and their probability of answering an item correctly, based on the estimated difficulty (b) and discrimination (a) parameters from the IRT model. 
 
 
 
