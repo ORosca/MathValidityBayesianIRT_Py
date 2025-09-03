@@ -26,13 +26,13 @@ The final processed dataset used for modeling consists of responses from 4,460 i
 ## Methodology & Models
 The analysis begins by reshaping the raw data into a long format suitable for IRT modeling.  A series of progressively complex IRT models are then specified and trained:
 
-### Baseline Models:
+### Baseline Models
 
 **Rasch Model:** A 1PL model estimating a single difficulty parameter (b) for each item. 
 
 **2PL Model:** An extension that adds a discrimination parameter (a) for each item. 
 
-### Models with Covariates:
+### Models with Covariates
 
 **Rasch + Covariates:** Incorporates the effects of item domain and pre-assigned difficulty level on item difficulty. 
 
@@ -50,8 +50,7 @@ The primary outputs of this project are:
 
 **Empirical_Plots_math Folder:** Contains empirical plots that show the actual student responses (0 for incorrect, 1 for correct) against their estimated abilities, with the model-predicted ICC overlaid for visual fit assessment. 
 
-** Installation & Usage
-To run the analysis, first install the required dependencies:
+**Installation & Usage:** To run the analysis, first install the required dependencies:
 
 pip install --quiet py-irt torch pyro-ppl pandas jsonlines
 Then, ensure the input CSV files are accessible in your environment (e.g., in your Google Drive) and run the cells sequentially in the Math Assessment.ipynb notebook.
